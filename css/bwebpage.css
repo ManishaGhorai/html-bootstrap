@@ -1,0 +1,31 @@
+/* .navbar-nav{
+    background-color: aqua;
+} */
+.nav-link{
+    color: #21121f;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.nav-item{
+    padding: 0 14px;
+}
+.active{
+    border-bottom: 2px solid #21121f;
+}
+.objective {
+    margin-right: 1.5rem!important;
+    border-right: 1px solid #dee2e6!important;
+    padding-right: 20px !important;
+    
+}
+.btn-pill {
+    border-radius: 6.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.client{
+    margin: 2rem;
+}
+.contact{
+    margin: 5rem;
+}

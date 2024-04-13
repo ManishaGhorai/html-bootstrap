@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- bootstrap css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Bootstrap demo</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-danger" href="#">SoLMusic</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dashboard
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Sign up</a></li>
+                                <li><a class="dropdown-item" href="#">Sign in</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="Create an account" placeholder="Create an account"
+                            aria-label="Create an account">
+                        <button class="btn btn-outline-success" type="submit">Login</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <section class="banner">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousal">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/music img1.jpeg" class="d-block w-100" alt="slide1" height="450">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-center">Listen To New Music</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, placeat officia.<br>
+                                Distinctio fuga asperiores fugit labore rerum quasi illo ad.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/music img2.jpeg" class="d-block w-100" alt="slide2" height="450">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-center">Listen To New Music</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, placeat officia.<br>
+                                Distinctio fuga asperiores fugit labore rerum quasi illo ad.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/music img3.jpeg" class="d-block w-100" alt="slide3" height="450">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="text-center">Listen To New Music</h1>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, placeat officia.<br>
+                                Distinctio fuga asperiores fugit labore rerum quasi illo ad.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="about py-4 bg-primary-subtle">
+            <div class="container">
+                <h3 class="text-center">About</h3>
+                <div class="row">
+                    <div class="col-lg-2 col-sm-4">
+                        <img src="images/music img9.jpeg" alt="about1" class="img-fluid">
+                    </div>
+                    <div class="col-lg-8 col-sm-4">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima explicabo adipisci tempore
+                            repellendus, voluptatum expedita praesentium ullam porro fugiat aspernatur sit, tenetur, rem
+                            ex? Odio neque voluptas laudantium praesentium. Natus!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur, ad obcaecati eaque
+                            ipsa, molestiae optio saepe eveniet id nam aliquam aut nobis. Provident in, possimus sint
+                            sequi dicta ab.</p>
+                    </div>
+                    <div class="col-lg-2 col-sm-4">
+                        <img src="images/music img4.jpeg" alt="about2" class="img-fluid">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service py-4 bg-danger-subtle text-primary">
+            <div class="container">
+                <h3 class="text-center">services</h3>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-sm-2">
+                            <img src="images/music img6.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-sm-2">
+                            <img src="images/music img7.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-sm-2">
+                            <img src="images/music img5.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-sm-2">
+                            <img src="images/music img8.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer text-bg-secondary py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 text-c">
+                            <p>Made By Manisha Ghorai</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 text-end">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-snapchat"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </footer>
+
+        <!-- proper js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js 
+
+</body>
+</html>
